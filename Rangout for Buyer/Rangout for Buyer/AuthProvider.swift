@@ -7,3 +7,8 @@
 //
 
 import Foundation
+import FirebaseAuth
+
+class AuthProvider{
+    
+}//class

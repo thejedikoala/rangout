@@ -1,0 +1,25 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'Rangout for Vendor' do
+  # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
+  use_frameworks!
+  
+  # Pods for Rangout for Vendor
+  pod 'Firebase/Core'
+  pod 'Firebase/Storage'
+  pod 'Firebase/Auth'
+  pod 'Firebase/Database'
+  
+  
+  target 'Rangout for VendorTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'Rangout for VendorUITests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end
