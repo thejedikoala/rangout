@@ -10,7 +10,7 @@ import UIKit
 
 class SignInVC: UIViewController {
     
-    @IBOutlet weak var logo: UIImageView!
+    //@IBOutlet weak var logo: UIImageView!
     @IBOutlet weak var emailTextField: UITextField!
     
     @IBOutlet weak var passwordTextField: UITextField!

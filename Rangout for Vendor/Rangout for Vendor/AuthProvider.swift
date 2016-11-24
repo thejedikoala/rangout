@@ -40,7 +40,7 @@ class AuthProvider {
             }
             
         });
-    } //LOGIN
+    }
 
     
     func signUp(withEmail: String, password: String, loginHandler: LoginHandler?) {

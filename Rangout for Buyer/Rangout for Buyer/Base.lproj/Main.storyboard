@@ -22,21 +22,21 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Buyer" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bZM-LJ-tbz">
-                                <rect key="frame" x="138" y="277" width="44.999999999999986" height="21.000000000000043"/>
+                                <rect key="frame" x="140" y="44" width="44.999999999999986" height="21.000000000000043"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter Email" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="LOI-aR-BzV">
-                                <rect key="frame" x="57" y="333" width="205.00000000000009" height="30.000000000000021"/>
+                                <rect key="frame" x="59" y="100" width="205.00000000000009" height="30.000000000000021"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" keyboardType="emailAddress"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1Cs-RK-IP4">
-                                <rect key="frame" x="62" y="435" width="38" height="29.999999999999829"/>
+                                <rect key="frame" x="64" y="202" width="38" height="29.999999999999829"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Login"/>
                                 <connections>
@@ -44,19 +44,15 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5ts-jg-jI5">
-                                <rect key="frame" x="205" y="435" width="55.000000000000043" height="29.999999999999829"/>
+                                <rect key="frame" x="207" y="202" width="55.000000000000043" height="29.999999999999829"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Sign Up"/>
                                 <connections>
                                     <action selector="signUp:" destination="BYZ-38-t0r" eventType="touchUpInside" id="AjC-C6-d3I"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="homelogo" translatesAutoresizingMaskIntoConstraints="NO" id="0g9-Fl-zsy">
-                                <rect key="frame" x="57" y="33" width="206" height="206"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Ach-ND-VMy">
-                                <rect key="frame" x="58" y="382" width="205" height="29.999999999999929"/>
+                                <rect key="frame" x="57" y="148" width="205" height="29.999999999999929"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -68,7 +64,6 @@
                     <connections>
                         <outlet property="email" destination="LOI-aR-BzV" id="H0b-Mm-mOn"/>
                         <outlet property="emailTextField" destination="LOI-aR-BzV" id="vhy-C8-9OE"/>
-                        <outlet property="logo" destination="0g9-Fl-zsy" id="afF-mZ-Qir"/>
                         <outlet property="passwordTextField" destination="Ach-ND-VMy" id="AW3-sl-7aS"/>
                     </connections>
                 </viewController>
@@ -115,7 +110,4 @@
             <point key="canvasLocation" x="900" y="87"/>
         </scene>
     </scenes>
-    <resources>
-        <image name="homelogo" width="206" height="206"/>
-    </resources>
 </document>

@@ -18,6 +18,9 @@
 		423D86B51DE406ED00DDEBC0 /* SignInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 423D86B41DE406ED00DDEBC0 /* SignInVC.swift */; };
 		423D86BA1DE42FDA00DDEBC0 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 423D86B91DE42FDA00DDEBC0 /* GoogleService-Info.plist */; };
 		427F7BC73B206D8BF3EF6DF9 /* Pods_Rangout_for_Vendor.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4764BF6D08F3C26C92D5B45 /* Pods_Rangout_for_Vendor.framework */; };
+		42B7CFD91DE75AC600EE9A27 /* DBProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42B7CFD81DE75AC600EE9A27 /* DBProvider.swift */; };
+		42B7CFDB1DE75B1B00EE9A27 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42B7CFDA1DE75B1B00EE9A27 /* Constants.swift */; };
+		42B7CFDD1DE75CC500EE9A27 /* FoodHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42B7CFDC1DE75CC500EE9A27 /* FoodHandler.swift */; };
 		A696416F93BED0D102707D3D /* Pods_Rangout_for_VendorUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD6F5B583EF6A26688C28008 /* Pods_Rangout_for_VendorUITests.framework */; };
 		C90589E20D32CF50F2C26B82 /* Pods_Rangout_for_VendorTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DC51CAA016790CA965E399E /* Pods_Rangout_for_VendorTests.framework */; };
 /* End PBXBuildFile section */
@@ -58,6 +61,9 @@
 		423D869E1DE3FA8B00DDEBC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		423D86B41DE406ED00DDEBC0 /* SignInVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInVC.swift; sourceTree = "<group>"; };
 		423D86B91DE42FDA00DDEBC0 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../Desktop/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		42B7CFD81DE75AC600EE9A27 /* DBProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DBProvider.swift; sourceTree = "<group>"; };
+		42B7CFDA1DE75B1B00EE9A27 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		42B7CFDC1DE75CC500EE9A27 /* FoodHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoodHandler.swift; sourceTree = "<group>"; };
 		987FDFEFD5BC0AB5354B1238 /* Pods-Rangout for VendorTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rangout for VendorTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Rangout for VendorTests/Pods-Rangout for VendorTests.release.xcconfig"; sourceTree = "<group>"; };
 		9A5C10739FB39389DC52386F /* Pods-Rangout for VendorUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rangout for VendorUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Rangout for VendorUITests/Pods-Rangout for VendorUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		BA75A213B5354B9577EAC47A /* Pods-Rangout for Vendor.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rangout for Vendor.release.xcconfig"; path = "Pods/Target Support Files/Pods-Rangout for Vendor/Pods-Rangout for Vendor.release.xcconfig"; sourceTree = "<group>"; };
@@ -112,6 +118,9 @@
 			isa = PBXGroup;
 			children = (
 				422ED0701DE43A8E00028E86 /* AuthProvider.swift */,
+				42B7CFD81DE75AC600EE9A27 /* DBProvider.swift */,
+				42B7CFDA1DE75B1B00EE9A27 /* Constants.swift */,
+				42B7CFDC1DE75CC500EE9A27 /* FoodHandler.swift */,
 			);
 			name = Plugins;
 			sourceTree = "<group>";
@@ -493,8 +502,11 @@
 			files = (
 				423D867F1DE3FA8B00DDEBC0 /* ViewController.swift in Sources */,
 				423D867D1DE3FA8B00DDEBC0 /* AppDelegate.swift in Sources */,
+				42B7CFD91DE75AC600EE9A27 /* DBProvider.swift in Sources */,
 				422ED0711DE43A8E00028E86 /* AuthProvider.swift in Sources */,
 				423D86B51DE406ED00DDEBC0 /* SignInVC.swift in Sources */,
+				42B7CFDB1DE75B1B00EE9A27 /* Constants.swift in Sources */,
+				42B7CFDD1DE75CC500EE9A27 /* FoodHandler.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
